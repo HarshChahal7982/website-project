@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+   font-family: "Poppins",sans-serif;
+   color:#444444;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Satisfy",cursive;
+}
+
+#header {
+    height: 60px;
+}
+.navbar-brand {
+    color: #ffb03b;
+}
+
+.navbar h1 {
+    font-size: 28px;
+    line-height: 1;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #ffb03b;
+}
+.nav-item a{
+    text-decoration: none;
+    color:#ffb03b;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+ .nav-item a:hover{
+    color: #ffc56e;
+    text-decoration: underline;
+}
+.btn-primary {
+ background-color: #ffb03b;
+ color: #fff;
+ border: none;   
+ text-transform: uppercase;
+ font-size: 16px;
+ font-weight: bold;
+ letter-spacing: 1px;
+}
+.hero {
+  background-image: url(../images/hero-bg.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 20%;
+  margin-top: 0;
+}
+.hero h1{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size:48px;
+    font-weight: 700;
+
+}
+.hero h1 span {
+    color: #ffb03b;
+}
+.hero p{
+    color: #fff;
+    width: 80%;
+    margin: 0 auto 30px auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about {
+    background:#fffaf3;
+    padding:25px;
+}
+.about .content {
+    padding: 0 80px;
+}
+.about .content h3 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #5f5950
+}
+.about .content p {
+    font-size: 15px;
+    color: #848484
+}
+
+
+
+.m-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.m-content p {
+    padding-right: 10px;
+    background:#fff;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: #ff9b08;
+}
+
+.menu .m-content span {
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    padding:0 10px;
+    font-weight: 600;
+    color: #444444;
+}
+
+.menu-ingridients p{
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Comic Neue",sans-serif;
+    color:#948c81;
+}
+
+.m-content, .menu-ingridients {
+    padding: 0 30%;
+}
+
+
+
+section {
+    padding:60px 0;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    margin:15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f5950;
+}
+.section-title h2 span {
+    color: #ffb03b;
+}
+.section-title p {
+    margin:15px auto 0 auto;
+    font-weight: 300;
+    font-style: italic;
+}
+.book {
+    background: #fffaf3 ;
+}
+
+.book .book-form{
+    width:100%;
+    padding:30px;
+}
+.form-group {
+    padding-bottom: 8px;
+}
+input, textarea {
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 14px;
+    border:none;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #848484;
+}
+input {
+    height:60px;
+    
+}
+textarea {
+    padding:10px 12px;
+    
+}
+
+.contact .info-wrap {
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+}
+.contact .info {
+    background: #fff;
+}
+.contact .info h4 {
+    padding: 10px 0 0 60px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #433f39;
+    font-family: "Poppins",sans-serif;
+}
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #7a7368;
+}
+#footer {
+    background: #fffaf3;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#footer h3 {
+    color: #ff9b08;
+    font-size: 36px;
+    font-weight: 700px;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+#footer p {
+    font-size:15;
+    font-style: italic;
+    padding: 0;
+    margin-left: 40px;
+}
+#footer .social-links {
+    margin-left: 40px;
+}
+
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    background:#433f39;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    width:36px;
+    height:36px;
+    margin-bottom: 20px;
+}
+.social-links a:hover{
+    background: #ffb03b;}
+#footer .copyright {
+    margin: 0 0 5px 0;
+
+}
+
+
+@media (min-width: 1024px) {
+    .section-title p {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 40%;
+       
+    }
+}
+
+@media (max-width: 1024px) {
+        .hero {
+            padding-top: 30%;
+           
+        }
+        .about img {
+            display: none;
+        }
+}
+
+
+
+    
